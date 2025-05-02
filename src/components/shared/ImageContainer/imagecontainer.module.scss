@@ -1,0 +1,22 @@
+.imageContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+
+  .image {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .loaderWrapper {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
